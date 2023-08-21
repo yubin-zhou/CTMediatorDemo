@@ -13,9 +13,11 @@
 		6F89E3222A93526100420F1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F89E3202A93526100420F1D /* Main.storyboard */; };
 		6F89E3242A93526400420F1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F89E3232A93526400420F1D /* Assets.xcassets */; };
 		6F89E3272A93526400420F1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F89E3252A93526400420F1D /* LaunchScreen.storyboard */; };
+		9F9554CB4AB92F254F0C4C4F /* Pods_CTMediatorDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6829B5506B1F3E473EFE5454 /* Pods_CTMediatorDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6829B5506B1F3E473EFE5454 /* Pods_CTMediatorDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CTMediatorDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F89E3172A93526100420F1D /* CTMediatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CTMediatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F89E31A2A93526100420F1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F89E31C2A93526100420F1D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		6F89E3232A93526400420F1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F89E3262A93526400420F1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F89E3282A93526400420F1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		911BD0F2E040E2D2B483F187 /* Pods-CTMediatorDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTMediatorDemo.debug.xcconfig"; path = "Target Support Files/Pods-CTMediatorDemo/Pods-CTMediatorDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		AE4E9438F791AB545425BD30 /* Pods-CTMediatorDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTMediatorDemo.release.xcconfig"; path = "Target Support Files/Pods-CTMediatorDemo/Pods-CTMediatorDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F9554CB4AB92F254F0C4C4F /* Pods_CTMediatorDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				6F89E3192A93526100420F1D /* CTMediatorDemo */,
 				6F89E3182A93526100420F1D /* Products */,
+				C670561FC23AAB5ED59753C5 /* Pods */,
+				EA5A78455FFAD7E60CFD7527 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +74,24 @@
 			path = CTMediatorDemo;
 			sourceTree = "<group>";
 		};
+		C670561FC23AAB5ED59753C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				911BD0F2E040E2D2B483F187 /* Pods-CTMediatorDemo.debug.xcconfig */,
+				AE4E9438F791AB545425BD30 /* Pods-CTMediatorDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EA5A78455FFAD7E60CFD7527 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6829B5506B1F3E473EFE5454 /* Pods_CTMediatorDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,6 +99,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6F89E32B2A93526400420F1D /* Build configuration list for PBXNativeTarget "CTMediatorDemo" */;
 			buildPhases = (
+				090D49B80E05E1D1BBCB3457 /* [CP] Check Pods Manifest.lock */,
 				6F89E3132A93526100420F1D /* Sources */,
 				6F89E3142A93526100420F1D /* Frameworks */,
 				6F89E3152A93526100420F1D /* Resources */,
@@ -132,6 +158,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		090D49B80E05E1D1BBCB3457 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CTMediatorDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6F89E3132A93526100420F1D /* Sources */ = {
@@ -282,6 +333,7 @@
 		};
 		6F89E32C2A93526400420F1D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 911BD0F2E040E2D2B483F187 /* Pods-CTMediatorDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +362,7 @@
 		};
 		6F89E32D2A93526400420F1D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE4E9438F791AB545425BD30 /* Pods-CTMediatorDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

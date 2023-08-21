@@ -1,0 +1,6 @@
+framework module Pods_CTMediatorDemo {
+  umbrella header "Pods-CTMediatorDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
