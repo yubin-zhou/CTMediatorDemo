@@ -13,7 +13,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        var window:UIWindow?
         // Override point for customization after application launch.
+        window?.reSetRootVC()
         return true
     }
 
@@ -32,5 +34,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 
+}
+extension UIWindow{
+    func reSetRootVC(){
+        let nav = UINavigationController.init(rootViewController: ViewController.init())
+        self.rootViewController = nav
+        self.makeKeyAndVisible()
+    }
 }
 

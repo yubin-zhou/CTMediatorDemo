@@ -7,17 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F5276AA2A935BEA00FB10B7 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5276A92A935BEA00FB10B7 /* LoginVC.swift */; };
+		6F5276AC2A939D9300FB10B7 /* Target_Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5276AB2A939D9300FB10B7 /* Target_Login.swift */; };
+		6F5276AE2A9458A700FB10B7 /* CTMediator+Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5276AD2A9458A700FB10B7 /* CTMediator+Login.swift */; };
 		6F89E31B2A93526100420F1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F89E31A2A93526100420F1D /* AppDelegate.swift */; };
 		6F89E31D2A93526100420F1D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F89E31C2A93526100420F1D /* SceneDelegate.swift */; };
 		6F89E31F2A93526100420F1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F89E31E2A93526100420F1D /* ViewController.swift */; };
 		6F89E3222A93526100420F1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F89E3202A93526100420F1D /* Main.storyboard */; };
 		6F89E3242A93526400420F1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F89E3232A93526400420F1D /* Assets.xcassets */; };
 		6F89E3272A93526400420F1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F89E3252A93526400420F1D /* LaunchScreen.storyboard */; };
+		6FA6EA602A95DC590049DD57 /* MessageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA6EA5F2A95DC590049DD57 /* MessageVC.swift */; };
+		6FA6EA622A95DD860049DD57 /* Target_Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA6EA612A95DD860049DD57 /* Target_Message.swift */; };
 		9F9554CB4AB92F254F0C4C4F /* Pods_CTMediatorDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6829B5506B1F3E473EFE5454 /* Pods_CTMediatorDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6829B5506B1F3E473EFE5454 /* Pods_CTMediatorDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CTMediatorDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F5276A92A935BEA00FB10B7 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		6F5276AB2A939D9300FB10B7 /* Target_Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Target_Login.swift; sourceTree = "<group>"; };
+		6F5276AD2A9458A700FB10B7 /* CTMediator+Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CTMediator+Login.swift"; sourceTree = "<group>"; };
 		6F89E3172A93526100420F1D /* CTMediatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CTMediatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F89E31A2A93526100420F1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F89E31C2A93526100420F1D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +34,8 @@
 		6F89E3232A93526400420F1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F89E3262A93526400420F1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F89E3282A93526400420F1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FA6EA5F2A95DC590049DD57 /* MessageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageVC.swift; sourceTree = "<group>"; };
+		6FA6EA612A95DD860049DD57 /* Target_Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Target_Message.swift; sourceTree = "<group>"; };
 		911BD0F2E040E2D2B483F187 /* Pods-CTMediatorDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTMediatorDemo.debug.xcconfig"; path = "Target Support Files/Pods-CTMediatorDemo/Pods-CTMediatorDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		AE4E9438F791AB545425BD30 /* Pods-CTMediatorDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTMediatorDemo.release.xcconfig"; path = "Target Support Files/Pods-CTMediatorDemo/Pods-CTMediatorDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -42,9 +52,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F5276A62A935B8C00FB10B7 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				6F5276A92A935BEA00FB10B7 /* LoginVC.swift */,
+				6F5276AB2A939D9300FB10B7 /* Target_Login.swift */,
+				6F5276AD2A9458A700FB10B7 /* CTMediator+Login.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		6F89E30E2A93526100420F1D = {
 			isa = PBXGroup;
 			children = (
+				6FA6EA5E2A95DC1E0049DD57 /* Message */,
+				6F5276A62A935B8C00FB10B7 /* Login */,
 				6F89E3192A93526100420F1D /* CTMediatorDemo */,
 				6F89E3182A93526100420F1D /* Products */,
 				C670561FC23AAB5ED59753C5 /* Pods */,
@@ -74,13 +96,21 @@
 			path = CTMediatorDemo;
 			sourceTree = "<group>";
 		};
+		6FA6EA5E2A95DC1E0049DD57 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				6FA6EA5F2A95DC590049DD57 /* MessageVC.swift */,
+				6FA6EA612A95DD860049DD57 /* Target_Message.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
 		C670561FC23AAB5ED59753C5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				911BD0F2E040E2D2B483F187 /* Pods-CTMediatorDemo.debug.xcconfig */,
 				AE4E9438F791AB545425BD30 /* Pods-CTMediatorDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -103,6 +133,7 @@
 				6F89E3132A93526100420F1D /* Sources */,
 				6F89E3142A93526100420F1D /* Frameworks */,
 				6F89E3152A93526100420F1D /* Resources */,
+				91FD61C70421A480CF7F083D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -182,6 +213,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		91FD61C70421A480CF7F083D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CTMediatorDemo/Pods-CTMediatorDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CTMediatorDemo/Pods-CTMediatorDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CTMediatorDemo/Pods-CTMediatorDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -191,7 +239,12 @@
 			files = (
 				6F89E31F2A93526100420F1D /* ViewController.swift in Sources */,
 				6F89E31B2A93526100420F1D /* AppDelegate.swift in Sources */,
+				6FA6EA622A95DD860049DD57 /* Target_Message.swift in Sources */,
+				6F5276AA2A935BEA00FB10B7 /* LoginVC.swift in Sources */,
 				6F89E31D2A93526100420F1D /* SceneDelegate.swift in Sources */,
+				6FA6EA602A95DC590049DD57 /* MessageVC.swift in Sources */,
+				6F5276AC2A939D9300FB10B7 /* Target_Login.swift in Sources */,
+				6F5276AE2A9458A700FB10B7 /* CTMediator+Login.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,7 +396,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CTMediatorDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -372,7 +425,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CTMediatorDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
