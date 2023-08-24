@@ -18,6 +18,8 @@
 		6F89E3272A93526400420F1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F89E3252A93526400420F1D /* LaunchScreen.storyboard */; };
 		6FA6EA602A95DC590049DD57 /* MessageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA6EA5F2A95DC590049DD57 /* MessageVC.swift */; };
 		6FA6EA622A95DD860049DD57 /* Target_Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA6EA612A95DD860049DD57 /* Target_Message.swift */; };
+		6FA6EA642A96FB050049DD57 /* RxSwiftVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA6EA632A96FB050049DD57 /* RxSwiftVC.swift */; };
+		6FA6EA672A96FD900049DD57 /* Target_RxSwiftModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA6EA662A96FD900049DD57 /* Target_RxSwiftModule.swift */; };
 		9F9554CB4AB92F254F0C4C4F /* Pods_CTMediatorDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6829B5506B1F3E473EFE5454 /* Pods_CTMediatorDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +38,8 @@
 		6F89E3282A93526400420F1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FA6EA5F2A95DC590049DD57 /* MessageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageVC.swift; sourceTree = "<group>"; };
 		6FA6EA612A95DD860049DD57 /* Target_Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Target_Message.swift; sourceTree = "<group>"; };
+		6FA6EA632A96FB050049DD57 /* RxSwiftVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftVC.swift; sourceTree = "<group>"; };
+		6FA6EA662A96FD900049DD57 /* Target_RxSwiftModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Target_RxSwiftModule.swift; sourceTree = "<group>"; };
 		911BD0F2E040E2D2B483F187 /* Pods-CTMediatorDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTMediatorDemo.debug.xcconfig"; path = "Target Support Files/Pods-CTMediatorDemo/Pods-CTMediatorDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		AE4E9438F791AB545425BD30 /* Pods-CTMediatorDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTMediatorDemo.release.xcconfig"; path = "Target Support Files/Pods-CTMediatorDemo/Pods-CTMediatorDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,6 +69,7 @@
 		6F89E30E2A93526100420F1D = {
 			isa = PBXGroup;
 			children = (
+				6FA6EA652A96FD050049DD57 /* RxSwiftModule */,
 				6FA6EA5E2A95DC1E0049DD57 /* Message */,
 				6F5276A62A935B8C00FB10B7 /* Login */,
 				6F89E3192A93526100420F1D /* CTMediatorDemo */,
@@ -103,6 +108,15 @@
 				6FA6EA612A95DD860049DD57 /* Target_Message.swift */,
 			);
 			path = Message;
+			sourceTree = "<group>";
+		};
+		6FA6EA652A96FD050049DD57 /* RxSwiftModule */ = {
+			isa = PBXGroup;
+			children = (
+				6FA6EA632A96FB050049DD57 /* RxSwiftVC.swift */,
+				6FA6EA662A96FD900049DD57 /* Target_RxSwiftModule.swift */,
+			);
+			path = RxSwiftModule;
 			sourceTree = "<group>";
 		};
 		C670561FC23AAB5ED59753C5 /* Pods */ = {
@@ -237,11 +251,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FA6EA672A96FD900049DD57 /* Target_RxSwiftModule.swift in Sources */,
 				6F89E31F2A93526100420F1D /* ViewController.swift in Sources */,
 				6F89E31B2A93526100420F1D /* AppDelegate.swift in Sources */,
 				6FA6EA622A95DD860049DD57 /* Target_Message.swift in Sources */,
 				6F5276AA2A935BEA00FB10B7 /* LoginVC.swift in Sources */,
 				6F89E31D2A93526100420F1D /* SceneDelegate.swift in Sources */,
+				6FA6EA642A96FB050049DD57 /* RxSwiftVC.swift in Sources */,
 				6FA6EA602A95DC590049DD57 /* MessageVC.swift in Sources */,
 				6F5276AC2A939D9300FB10B7 /* Target_Login.swift in Sources */,
 				6F5276AE2A9458A700FB10B7 /* CTMediator+Login.swift in Sources */,

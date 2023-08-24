@@ -8,6 +8,8 @@
 import UIKit
 import CTMediator
 class ViewController: UIViewController{
+    
+    lazy var list:[String] = ["登录","消息","RxSwift","1","2","3","4"]
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -37,7 +39,7 @@ class ViewController: UIViewController{
 
 extension ViewController:UITableViewDataSource, UITableViewDelegate{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        10
+        return list.count
     }
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
@@ -51,6 +53,12 @@ extension ViewController:UITableViewDataSource, UITableViewDelegate{
         }
         if(indexPath.row==1){
             let vc = CTMediator.sharedInstance().message_MessageVC(para: ["消息":"1213213"]) { temp in
+                print("resut:=====\(temp)")
+            }
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
+        if(indexPath.row==2){
+            let vc = CTMediator.sharedInstance().RxSwift_RxSwiftModuleVC(para: [:]) { temp in
                 print("resut:=====\(temp)")
             }
             self.navigationController?.pushViewController(vc, animated: true)
