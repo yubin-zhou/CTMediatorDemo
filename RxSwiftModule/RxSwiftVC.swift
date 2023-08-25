@@ -24,6 +24,9 @@ class RxSwiftVC: UIViewController {
             print(event)
         }
         a.disposed(by: bag)
+        
+        
+        
     }
     
     
