@@ -18,10 +18,12 @@ class RxSwiftVC: UIViewController {
         // Do any additional setup after loading the view.
         let btn:UIButton = UIButton.init(frame: CGRect.init(x: 20, y: 100, width: 100, height: 30))
         btn.setTitleColor(.red, for: .normal)
-        btn.setTitle("测试", for:.normal)
+        btn.setTitle("MVVM", for:.normal)
         self.view.addSubview(btn)
         let a:Disposable = btn.rx.tap.subscribe { event in
             print(event)
+            let vc = MVVMViewController();
+            self.navigationController?.pushViewController(vc, animated: true)
         }
         a.disposed(by: bag)
         

@@ -8,5 +8,6 @@
 import UIKit
 
 class MVVMModel: NSObject {
-
+    @objc dynamic var name:String = ""
+    @objc dynamic var pwd:String = ""
 }

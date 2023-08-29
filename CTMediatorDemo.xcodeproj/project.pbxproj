@@ -23,6 +23,7 @@
 		6FA6EA6A2A98B5670049DD57 /* MVVMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA6EA692A98B5670049DD57 /* MVVMViewController.swift */; };
 		6FA6EA6C2A98B57E0049DD57 /* MVVMModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA6EA6B2A98B57E0049DD57 /* MVVMModel.swift */; };
 		6FA6EA6E2A98B58F0049DD57 /* MVVMViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA6EA6D2A98B58F0049DD57 /* MVVMViewModel.swift */; };
+		6FC9457F2A9CC67400BB5492 /* MVVMView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC9457E2A9CC67400BB5492 /* MVVMView.swift */; };
 		9F9554CB4AB92F254F0C4C4F /* Pods_CTMediatorDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6829B5506B1F3E473EFE5454 /* Pods_CTMediatorDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +47,7 @@
 		6FA6EA692A98B5670049DD57 /* MVVMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMViewController.swift; sourceTree = "<group>"; };
 		6FA6EA6B2A98B57E0049DD57 /* MVVMModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMModel.swift; sourceTree = "<group>"; };
 		6FA6EA6D2A98B58F0049DD57 /* MVVMViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMViewModel.swift; sourceTree = "<group>"; };
+		6FC9457E2A9CC67400BB5492 /* MVVMView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMView.swift; sourceTree = "<group>"; };
 		911BD0F2E040E2D2B483F187 /* Pods-CTMediatorDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTMediatorDemo.debug.xcconfig"; path = "Target Support Files/Pods-CTMediatorDemo/Pods-CTMediatorDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		AE4E9438F791AB545425BD30 /* Pods-CTMediatorDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTMediatorDemo.release.xcconfig"; path = "Target Support Files/Pods-CTMediatorDemo/Pods-CTMediatorDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -132,6 +134,7 @@
 				6FA6EA692A98B5670049DD57 /* MVVMViewController.swift */,
 				6FA6EA6B2A98B57E0049DD57 /* MVVMModel.swift */,
 				6FA6EA6D2A98B58F0049DD57 /* MVVMViewModel.swift */,
+				6FC9457E2A9CC67400BB5492 /* MVVMView.swift */,
 			);
 			path = MVVM;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				6F89E31B2A93526100420F1D /* AppDelegate.swift in Sources */,
 				6FA6EA622A95DD860049DD57 /* Target_Message.swift in Sources */,
 				6F5276AA2A935BEA00FB10B7 /* LoginVC.swift in Sources */,
+				6FC9457F2A9CC67400BB5492 /* MVVMView.swift in Sources */,
 				6FA6EA6C2A98B57E0049DD57 /* MVVMModel.swift in Sources */,
 				6F89E31D2A93526100420F1D /* SceneDelegate.swift in Sources */,
 				6FA6EA6A2A98B5670049DD57 /* MVVMViewController.swift in Sources */,
